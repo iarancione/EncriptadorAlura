@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de Alura" class="logotype">
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="9" placeholder="Escriba aquí su mensaje"></textarea>
+            <div>
+                <h6 class="info">&#128712; Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="button-container">
+                <input type="button" value="Encriptar" class="button-encrypt" onclick="buttonEncrypt()">
+                <input type="button" value="Desencriptar" class="button-decrypt" onclick="buttonDecrypt()">
+            </div>
+        </section>
+
+        <section>
+            <textarea class="message-area" cols="20" rows="9"></textarea>
+            <div class="copy-container">
+                <input type="button" value="Copiar" class="button-copy">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="credits">&#169; Aranza Romero - 2023</p>
+        <a href="https://github.com/iarancione"><img class="logo-github" src="github-logo.png" alt="Logo GitHub"></a>
+        <a href="https://www.linkedin.com/in/iaranzarm/"><img class="logo-linkedin" src="linkedin-logo.png" alt="Logo LinkedIn"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

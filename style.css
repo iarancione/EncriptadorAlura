@@ -1,0 +1,150 @@
+* {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #fceccf;
+}
+
+.logotype {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin: 40px;
+}
+
+.text-area {
+    width: 700px;
+    border: none;
+    background: none;
+    text-transform: lowercase;
+    margin-left: 3em;
+    color: #754c39
+}
+
+::placeholder {color: #af7154}
+    .text-area:focus {
+        outline: none;
+    }
+
+.info {
+    font-size: 15px;
+    margin-left: 6em;
+}
+
+.button-container {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+.button-encrypt {
+   background-color: #ff627c;
+   border: 1px solid #ff627c;
+   border-radius: 25px;
+   color: white;
+   cursor: pointer;
+   transition: 1s all;
+   height: 50px;
+   width: 250px; 
+}
+
+.button-encrypt:hover {
+    background: white;
+    color: #ff627c;
+    font-weight: bold;
+    transform: scale(1.10);
+}
+
+.button-decrypt {
+    background-color: #ff8f61;
+    border: 1px solid #ff8f61;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 1s all;
+    height: 50px;
+    width: 250px;
+}
+
+.button-decrypt:hover {
+    background: white;
+    color: #ff8f61;
+    font-weight: bold;
+    transform: scale(1.10);
+}
+
+.button-copy {
+    background-color: #af7154;
+    border: 1px solid #af7154;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 1s all;
+    height: 50px;
+    width: 250px;
+}
+
+.button-copy:hover {
+    background: white;
+    color: #af7154;
+    font-weight: bold;
+    transform: scale(1.10);
+}
+
+.message-area {
+    width: 350px;
+    padding: 7px;
+    background: white;
+    background-image: url(background_rj.png);
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 0px 35px #754c39;
+    margin-left: 3em;
+    margin-bottom: 33px;
+    color: #754c39
+}
+
+.message-area:focus {
+    background: white;
+    outline: none;
+}
+
+
+.copy-container {
+    text-align: center;
+    margin-left: 2em;
+}
+
+footer {
+    height: 15%;
+    background: #ff627c;
+    text-align: center;
+    padding: 20px;
+}
+
+.credits {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+ 
+.logo-github {
+    height: 30px;
+    margin-right: 10px ;
+}
+
+.logo-linkedin {
+    height: 30px;
+}
